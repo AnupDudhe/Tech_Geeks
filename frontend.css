@@ -1,0 +1,100 @@
+.h-center {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem; /* Large font for emphasis */
+  color: #1d3557; /* Deep calming blue */
+  /* font-family: "Roboto" */
+}
+p.h-center {
+  font-size: 1.25rem;
+  margin: 10px auto;
+  color: #4d4d4d; /* Soft grey text */
+  max-width: 600px; /* Centered width */
+}
+
+ul.custom-bullets-server {
+  list-style-type: square; /* Square bullets */
+  margin: 20px auto;
+  padding: 0;
+  max-width: 300px;
+  text-align: left; /* Align list items to the left */
+}
+
+
+ul.custom-bullets-server li {
+  font-size: 0.9rem;
+  padding: 8px 0;
+  color: #1d3557; /* Matches the heading */
+  font-weight: bold;
+}
+
+ul.custom-bullets-dev {
+  list-style-type: square; /* Square bullets */
+  margin: 20px auto;
+  padding: 0;
+  max-width: 300px;
+  text-align: left; /* Align list items to the left */
+} 
+ul.custom-bullets-dev li {
+  font-size: 0.9rem;
+  padding: 8px 0;
+  color: #1d3557; /* Matches the heading */
+  font-weight: bold;
+}
+/*.custom-bullets {
+    list-style-type: square;
+}*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa; /* Light pastel cream/peach color */
+  color: #333; /* Soft dark color for contrast */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;  /* space between the two containers */
+  padding: 15px;
+}
+.flex-item {
+  width: 330px;  /* Taking up half of the container width */
+  /*height: 300px;*/
+  padding: 20px;
+  color: #555;
+  background-position: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.h-center-devside {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 2.0rem; /* Large font for emphasis */
+  color: #1d3557; /* Deep calming blue */
+  /* font-family: "Roboto" */
+}
+.h-center-serverside {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 2.0rem; /* Large font for emphasis */
+  color: #1d3557; /* Deep calming blue */
+  /* font-family: "Roboto" */
+}
+.server-side {
+  /*  background-color: white;Add your background image */ 
+    background-image: url("https://img.freepik.com/free-vector/backup-concept-illustration_114360-24073.jpg?t=st=1737896562~exp=1737900162~hmac=331fdeb2bdc066bd322ae88b7f9054e366b9b5c8f2752f87dfe35fb92aa8cd31&w=740");
+  background-size: cover;
+}
+
+/* Developer Side Flex Item */
+.developer-side {
+  /*  background-color: white; */
+    background-image: url("https://img.freepik.com/free-vector/website-creator-concept-illustration_114360-3802.jpg?t=st=1737898149~exp=1737901749~hmac=2735d93d7783bedeca88fd44cfadf454b187c3bc2d213ff0c2c6ed9bb7b1cf64&w=740");
+  background-size: cover;
+}
