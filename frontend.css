@@ -98,3 +98,58 @@ body {
     background-image: url("https://img.freepik.com/free-vector/website-creator-concept-illustration_114360-3802.jpg?t=st=1737898149~exp=1737901749~hmac=2735d93d7783bedeca88fd44cfadf454b187c3bc2d213ff0c2c6ed9bb7b1cf64&w=740");
   background-size: cover;
 }
+
+/* this is css for hrefs */
+  .styled-link {
+    text-decoration: none;  /* Removes the underline */
+    color: #1d3557;  /* Changes the text color */
+    font-size: 16px;  /* Sets the font size */
+    font-weight: bold;  /* Makes the text bold */
+    transition: color 0.3s ease, transform 0.3s ease;  /* Smooth transition effect */
+  }
+ 
+  .styled-link:hover {
+    color: #fc03d7;  /* Changes color on hover */
+    transform: scale(1.1);  /* Slight zoom effect on hover */
+  }
+
+  .styled-link:focus {
+    outline: 2px solid #fc03d7;  /* Adds a focus outline */
+  }
+ /* .styled-link:visited {
+  color: #1d3557;  /* A different color for visited links 
+} */
+.styled-link:active {
+  color: #fc03d7;  /* A red color for active links */
+}
+.styled-link {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+ .styled-link2 {
+    text-decoration: none;  /* Removes the underline */
+    color: #1d3557;  /* Changes the text color */
+    font-size: 16px;  /* Sets the font size */
+    font-weight: bold;  /* Makes the text bold */
+    transition: color 0.3s ease, transform 0.3s ease;  /* Smooth transition effect */
+  }
+ 
+  .styled-link2:hover {
+    color: #fa0404;  /* Changes color on hover */
+    transform: scale(1.1);  /* Slight zoom effect on hover */
+  }
+
+  .styled-link2:focus {
+    outline: 2px solid #fa0404;  /* Adds a focus outline */
+  }
+ /* .styled-link:visited {
+  color: #1d3557;  /* A different color for visited links 
+} */
+.styled-link2:active {
+  color: #fa0404;  /* A red color for active links */
+}
+.styled-link2 {
+  padding: 5px 10px;
+  margin: 5px;
+}
