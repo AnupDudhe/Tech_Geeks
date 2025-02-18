@@ -4,9 +4,13 @@ with tools to merge their changes and resolve conflicts. Git keeps track of all 
 and manage different branches of development.
 
 Key features of Git include:
+
 •	Version control: Keeps track of all changes made to files.
+
 •	Branching: Developers can create different branches to work on new features without affecting the main codebase.
+
 •	Merging: Combines changes from different branches back into the main codebase.
+
 •	Distributed: Every user has a full copy of the repository, making it possible to work offline and still have access to the full history of changes.
 
 Why is Git used?
