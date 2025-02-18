@@ -99,15 +99,15 @@ git push -u origin dev1	-> pushes your local dev1 branch to the remote repositor
 git push-u <sshurl> dev1
 
 *******************************************************************************************************************
-	Why Is GitHub Rejecting Your Password?																		                            
+//	Why Is GitHub Rejecting Your Password?																		                            
 
-	GitHub removed password authentication for Git operations over HTTPS on August 13, 2021. You now need to use:
+//	GitHub removed password authentication for Git operations over HTTPS on August 13, 2021. You now need to use:
 
-	1. A Personal Access Token (PAT) instead of your password 
+//	1. A Personal Access Token (PAT) instead of your password 
 
-						or
+//						or
 
-	2. SSH Authentication for secure access.																	                            
+//	2. SSH Authentication for secure access.																	                            
 *******************************************************************************************************************
 
 git diff main dev1	-> gives diffrence between two branches.
